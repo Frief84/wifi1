@@ -1,0 +1,198 @@
+<gpx version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+<wpt lon="13.05359253563" lat="52.395976196212">
+<name>0-128-rz-pde</name>
+<desc>0-128-rz-pde (berlin)</desc>
+</wpt>
+
+<wpt lon="13.0488825766" lat="52.400672417063">
+<name>0-160-gutenberg113</name>
+<desc>0-160-gutenberg113 (berlin)</desc>
+</wpt>
+
+<wpt lon="13.053250456316" lat="52.396054222883">
+<name>0-192-kulturlobby</name>
+<desc>0-192-kulturlobby (berlin)</desc>
+</wpt>
+
+<wpt lon="13.034153136409" lat="52.396070905632">
+<name>0-64-cvo</name>
+<desc>0-64-cvo (berlin)</desc>
+</wpt>
+
+<wpt lon="13.053560349122" lat="52.395984379641">
+<name>0-96-RZ-HH</name>
+<desc>0-96-RZ-HH (berlin)</desc>
+</wpt>
+
+<wpt lon="13.028622508027" lat="52.392116236547">
+<name>10-32-jana</name>
+<desc>10-32-jana (berlin)</desc>
+</wpt>
+
+<wpt lon="13.047203513756" lat="52.400534131589">
+<name>2-160-sokai</name>
+<desc>2-160-sokai (berlin)</desc>
+</wpt>
+
+<wpt lon="13.056195619479" lat="52.395295329542">
+<name>2-32-nico</name>
+<desc>2-32-nico (berlin)</desc>
+</wpt>
+
+<wpt lon="13.055014106407" lat="52.399269904058">
+<name>4-160-olga-dach</name>
+<desc>4-160-olga-dach (berlin)</desc>
+</wpt>
+
+<wpt lon="13.0342832" lat="52.3937841">
+<name>4-224-sokai</name>
+<desc>4-224-sokai (berlin)</desc>
+</wpt>
+
+<wpt lon="13.05728718949" lat="52.411173263539">
+<name>6-224-teestube</name>
+<desc>6-224-teestube (berlin)</desc>
+</wpt>
+
+<wpt lon="13.076002391948" lat="52.388630137671">
+<name>7-128-carina</name>
+<desc>7-128-carina (berlin)</desc>
+</wpt>
+
+<wpt lon="13.048695" lat="52.395264">
+<name>7-160-breite-nano2</name>
+<desc>7-160-breite-nano2 (berlin)</desc>
+</wpt>
+
+<wpt lon="13.075306358709" lat="52.388562203839">
+<name>7-192-carizzy-kueche</name>
+<desc>7-192-carizzy-kueche (berlin)</desc>
+</wpt>
+
+<wpt lon="13.095326" lat="52.389449">
+<name>8-0-spielplatz</name>
+<desc>8-0-spielplatz (berlin)</desc>
+</wpt>
+
+<wpt lon="13.057229212988" lat="52.410996166334">
+<name>8-192-teestube</name>
+<desc>8-192-teestube (berlin)</desc>
+</wpt>
+
+<wpt lon="13.05402705349" lat="52.401494756638">
+<name>8-224-black-market</name>
+<desc>8-224-black-market (berlin)</desc>
+</wpt>
+
+<wpt lon="13.075417670384" lat="52.388684975747">
+<name>8-32-carizzy-balkon</name>
+<desc>8-32-carizzy-balkon (berlin)</desc>
+</wpt>
+
+<wpt lon="13.06897" lat="52.40383">
+<name>9-192-behlert3-ap</name>
+<desc>9-192-behlert3-ap (berlin)</desc>
+</wpt>
+
+<wpt lon="13.055970313921" lat="52.395255230096">
+<name>ap-1-96-pub-dach</name>
+<desc>ap-1-96-pub-dach (berlin)</desc>
+</wpt>
+
+<wpt lon="13.051775674298" lat="52.400490917289">
+<name>ap-3-32-andre</name>
+<desc>ap-3-32-andre (berlin)</desc>
+</wpt>
+
+<wpt lon="13.055816086903" lat="52.39530514981">
+<name>ap-4-192-pub</name>
+<desc>ap-4-192-pub (berlin)</desc>
+</wpt>
+
+<wpt lon="13.055014106408" lat="52.399273995467">
+<name>ap-4-32-olga</name>
+<desc>ap-4-32-olga (berlin)</desc>
+</wpt>
+
+<wpt lon="13.049655723348" lat="52.400395743399">
+<name>ap0-224-kuze-buero</name>
+<desc>ap0-224-kuze-buero (berlin)</desc>
+</wpt>
+
+<wpt lon="13.071885201111" lat="52.389371673657">
+<name>ap2-192-bernd</name>
+<desc>ap2-192-bernd (berlin)</desc>
+</wpt>
+
+<wpt lon="13.048695" lat="52.395264">
+<name>ap250-1-hh</name>
+<desc>ap250-1-hh (berlin)</desc>
+</wpt>
+
+<wpt lon="13.049304576749" lat="52.400298578398">
+<name>ap3-0-kneipe</name>
+<desc>ap3-0-kneipe (berlin)</desc>
+</wpt>
+
+<wpt lon="13.051350208893" lat="52.398013823358">
+<name>ap3-128-lindenstr-42</name>
+<desc>ap3-128-lindenstr-42 (berlin)</desc>
+</wpt>
+
+<wpt lon="13.049188348427" lat="52.40026901503">
+<name>ap3-192-seminarraum</name>
+<desc>ap3-192-seminarraum (berlin)</desc>
+</wpt>
+
+<wpt lon="13.051787408962" lat="52.399287087977">
+<name>ap4-128-madia</name>
+<desc>ap4-128-madia (berlin)</desc>
+</wpt>
+
+<wpt lon="13.05598506607" lat="52.400213373081">
+<name>ap4-64-B90-Gruene</name>
+<desc>ap4-64-B90-Gruene (berlin)</desc>
+</wpt>
+
+<wpt lon="13.073011728897" lat="52.389221075745">
+<name>ap5-0-victor</name>
+<desc>ap5-0-victor (berlin)</desc>
+</wpt>
+
+<wpt lon="13.03458228157" lat="52.393595856242">
+<name>ap5-96-waschbar-dach</name>
+<desc>ap5-96-waschbar-dach (berlin)</desc>
+</wpt>
+
+<wpt lon="13.051698896065" lat="52.400625776448">
+<name>ap6-0-bernd</name>
+<desc>ap6-0-bernd (berlin)</desc>
+</wpt>
+
+<wpt lon="13.068242669106" lat="52.403767285812">
+<name>ap7-32-bernd</name>
+<desc>ap7-32-bernd (berlin)</desc>
+</wpt>
+
+<wpt lon="13.034629317894" lat="52.393584933039">
+<name>ap7-64-waschbar-kneipe</name>
+<desc>ap7-64-waschbar-kneipe (berlin)</desc>
+</wpt>
+
+<wpt lon="13.05397340931" lat="52.401417841945">
+<name>ap8-224-black-market</name>
+<desc>ap8-224-black-market (berlin)</desc>
+</wpt>
+
+<wpt lon="13.059716018808" lat="52.399742050227">
+<name>Freifunk-Potsdam-5-128</name>
+<desc>Freifunk-Potsdam-5-128 (berlin)</desc>
+</wpt>
+
+<wpt lon="13.068964420317" lat="52.403809370694">
+<name>Freifunk-Potsdam-9-224</name>
+<desc>Freifunk-Potsdam-9-224 (berlin)</desc>
+</wpt>
+
+</gpx>
