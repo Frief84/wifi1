@@ -1,5 +1,4 @@
-"logFormatVersion","stupid","deviceModel","sessionId","Latitude","Longitude","Altitude","Accuracy","Speed","specialCode","millisSinceLocation","SSID","BSSID","RSSI","SingalLevel","channel","ssidFilter"
-2015-03-16 22:45:25.078,1,LT30p,af17135a-abac-4691-8757-30ebf5fe9301,52.4012459,13.0539255,56.70000076293945,5.0,0.0,0,-2724,www.freifunk-potsdam.de,02:ca:ff:ee:ba:be,-72,5,'.*[Ff]reifunk.*'
+"logFormatVersion","stupid","deviceModel","sessionId","Latitude","Longitude","Altitude","Accuracy","Speed","specialCode","millisSinceLocation","SSID","BSSID","SingalLevel","channel","ssidFilter"
 2015-03-16 23:03:39.509,1,LT30p,df04e515-4b54-4ecd-97f5-3aaad3846352,52.4003399,13.0534806,73.0999984741211,4.0,0.75,1,-1300,,,-100,,'.*[Ff]reifunk.*'
 2015-03-16 23:11:08.268,1,LT30p,7be5b5bb-5433-4f20-a0da-b6be424d7529,52.4017825,13.0536687,89.5,3.9,0.5,1,-2969,,,-100,,'.*[Ff]reifunk.*'
 2015-03-16 23:03:35.461,1,LT30p,df04e515-4b54-4ecd-97f5-3aaad3846352,52.400296,13.0534755,73.80000305175781,4.0,0.75,1,-254,,,-100,,'.*[Ff]reifunk.*'

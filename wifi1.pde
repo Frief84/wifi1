@@ -10,7 +10,7 @@ class  DataPoint {
   Location location;  
   String sessionId;
   String Accuracy;
-  String SingalLevel;
+  float SingalLevel;
   
   // Indicates whether to show the name as label
   boolean showLabel;
@@ -56,7 +56,7 @@ void setup() {
     // Read data from CSV
     DataValue.sessionId = dataPointRow.getString("sessionId");
     DataValue.Accuracy = dataPointRow.getString("Accuracy");
-    DataValue.SingalLevel = dataPointRow.getString("SingalLevel");
+    DataValue.SingalLevel = Math.abs(dataPointRow.getFloat("SingalLevel"));
     float lat = dataPointRow.getFloat("Latitude");
     float lng = dataPointRow.getFloat("Longitude");
     DataValue.location=new Location(lat, lng);
@@ -67,7 +67,7 @@ void setup() {
   }
    println( DataCSV.getRowCount()+" datarows read");
    printArray(datapoints.size());
-   //System.out.println(datapoints);
+   System.out.println(datapoints);
        
 }
  
@@ -81,10 +81,23 @@ void draw() {
   for (DataPoint DataValue : datapoints) {
     // Convert geo locations to screen positions
     ScreenPosition pos = map.getScreenPosition(DataValue.location);
- 
-   //float s = map(DataValue.SingalLevel, 0, 100, 0, 255);
     
-    fill(255, 0, 0, 50);
+   //float s = map(DataValue.SingalLevel, 0, 100, 0, 255);
+   
+    if (DataValue.SingalLevel<40){
+      fill(0, 255, 0, 50);
+      }
+    if (DataValue.SingalLevel<75){
+      fill(170, 255, 0, 50);
+      }
+    if (DataValue.SingalLevel<80){
+      fill(255, 255, 0, 50);
+     }
+    if (DataValue.SingalLevel>80){
+      fill(255, 0, 0, 30);
+     }
+      
+      
     ellipse(pos.x, pos.y, 10, 10);
      
   }
