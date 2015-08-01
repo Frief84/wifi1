@@ -9,7 +9,7 @@ import de.fhpotsdam.unfolding.data.*;
 class  DataPoint {
   Location location;  
   String sessionId;
-  String Accuracy;
+  float Accuracy;
   float SingalLevel;
   
   // Indicates whether to show the name as label
@@ -55,7 +55,7 @@ void setup() {
     
     // Read data from CSV
     DataValue.sessionId = dataPointRow.getString("sessionId");
-    DataValue.Accuracy = dataPointRow.getString("Accuracy");
+    DataValue.Accuracy = dataPointRow.getFloat("Accuracy");
     DataValue.SingalLevel = Math.abs(dataPointRow.getFloat("SingalLevel"));
     float lat = dataPointRow.getFloat("Latitude");
     float lng = dataPointRow.getFloat("Longitude");
@@ -67,7 +67,7 @@ void setup() {
   }
    println( DataCSV.getRowCount()+" datarows read");
    printArray(datapoints.size());
-   System.out.println(datapoints);
+   //System.out.println(datapoints);
        
 }
  
@@ -84,24 +84,43 @@ void draw() {
     
    //float s = map(DataValue.SingalLevel, 0, 100, 0, 255);
    
-    if (DataValue.SingalLevel<40){
-      fill(0, 255, 0, 50);
-      }
-    if (DataValue.SingalLevel<75){
-      fill(170, 255, 0, 50);
-      }
-    if (DataValue.SingalLevel<80){
-      fill(255, 255, 0, 50);
-     }
     if (DataValue.SingalLevel>80){
       fill(255, 0, 0, 30);
      }
-      
-      
-    ellipse(pos.x, pos.y, 10, 10);
+     if (DataValue.SingalLevel<80){
+      fill(255, 255, 0, 50);
+     }
+     if (DataValue.SingalLevel<75){
+      fill(170, 255, 0, 80);
+      }
+     if (DataValue.SingalLevel<=65){
+      fill(0, 255, 0, 100);
+      }
      
+     
+      
+    // do not display Points with an Accuracy > 5m
+    if (DataValue.Accuracy>5){
+      fill(255, 0,255,0);
+     }
+   
+     
+    ellipse(pos.x, pos.y, 5, 5);
+    
+      if (DataValue.showLabel) {
+      fill(200);
+      text(DataValue.SingalLevel, pos.x - textWidth(str(DataValue.SingalLevel))/2, pos.y);
+    }  
   }
+}
 
-  
-
+void mouseClicked() {
+  // Simple way of displaying bike station names. Use markers for single station selection.
+  for (DataPoint DataValue : datapoints) {
+    DataValue.showLabel = false;
+    ScreenPosition pos = map.getScreenPosition(DataValue.location);
+    if (dist(pos.x, pos.y, mouseX, mouseY) < 10) {
+      DataValue.showLabel = true;
+    }
+  }
 }
